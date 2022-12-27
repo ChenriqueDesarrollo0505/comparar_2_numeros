@@ -1,0 +1,121 @@
+/*header*/
+
+body {
+    margin: 0px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(to bottom, rgba(186, 0, 0, 0.842) 27%, rgb(255, 255, 255) 100%);
+    padding: 25px 10px;
+}
+
+.container_logo {
+    display: flex;
+    justify-self: center;
+    align-items: center;
+    font-size: 35px;
+}
+
+.container_logo p {
+    margin: 0px 10px;
+    color: rgb(255, 255, 255);
+}
+
+.container_logo img {
+    width: 45px;
+    height: auto;
+    border-radius: 50%;
+    margin: 0px 10px;
+    vertical-align: center;
+}
+
+.container_menu {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.container_menu p {
+    margin: 0px 25px;
+    font-size: 25px;
+    color: white;
+}
+
+.container_menu a {
+    text-decoration: none;
+    color: white;
+}
+
+.container_menu a:hover {
+    color: black;
+}
+
+
+/*section body*/
+
+.container_body {
+    width: 100%;
+    height: 79vh;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(0deg, white, rgba(156, 154, 154, 0.685), white);
+}
+
+.container_form {
+    width: 450px;
+    height: 400px;
+    background: rgba(255, 56, 56, 0.28);
+    border-radius: 16px;
+    box-shadow: 0 0px 30px 10px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(20px);
+    display: flex;
+    justify-content: space-around;
+    align-items: space-between;
+    flex-wrap: wrap;
+}
+
+h1 {
+    text-align: center;
+    width: 100%;
+    font-size: 40px;
+    margin-bottom: 0px;
+}
+
+.container_body_1 input {
+    height: 30px;
+}
+
+.container_body_2 input {
+    height: 30px;
+}
+
+.boton_comparar {
+    width: 75%;
+    height: 40px;
+    background: radial-gradient(ellipse, rgb(255, 255, 255), rgb(121, 119, 119));
+    border: 1px solid rgb(121, 119, 119);
+    box-shadow: 0px 0px 10px 5px rgb(134, 133, 133);
+}
+
+
+/*footer*/
+
+.container_footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 13.5px 10px;
+    background: linear-gradient(to top, rgb(0, 0, 0) 0%, rgb(58, 53, 53) 47%, rgb(255, 255, 255) 100%);
+}
+
+.container_footer p {
+    margin: 0px 0px;
+    padding: 0px;
+    font-size: 25px;
+    color: white;
+}

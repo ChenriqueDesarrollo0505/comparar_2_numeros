@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mayor Menor Igual</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header>
+        <div class="container_logo">
+
+            <p>
+                ChenDev</p>
+        </div>
+        <div class="container_menu">
+            <p>Inicio</p>
+            <p>
+                Practicas
+            </p>
+        </div>
+    </header>
+    <section>
+        <div class="container_body">
+            <div class="container_form">
+                <h1>Comparar 2 numeros</h1>
+
+                <div class="container_body_1">
+                    <p>Primer numero </p>
+                    <input id="num_1" type="number"></div>
+                <div class="container_body_2">
+                    <p>Segundo numero</p>
+                    <input id="num_2" type="number">
+                </div>
+
+                <button id="boton" class="boton_comparar" onclick="comparar()">Comparar numeros</button>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="container_footer">
+            <p>ChenDev</p>
+        </div>
+
+    </footer>
+</body>
+
+</html>
+<script>
+    var inputs = document.querySelectorAll("input");
+    var num_1 = document.getElementById("num_1");
+    var num_2 = document.getElementById("num_2");
+
+    document.getElementById("boton").addEventListener("click", comparar);
+
+    function comparar() {
+        if (num_1.value > num_2.value) {
+            alert("el primer numero es mayor");
+        } else if (num_2.value > num_1.value) {
+            alert("el segundo numero es mayor");
+        } else {
+            alert("Los numeros ingresados son iguales");
+        }
+
+
+        /*  if (inputs[0].value > inputs[1].value) {
+            alert("el primer numero es mayor");
+        }
+        if (inputs[1].value > inputs[0].value) {
+            alert("el segundo numero es mayor");
+        }
+*/
+    }
+</script>
