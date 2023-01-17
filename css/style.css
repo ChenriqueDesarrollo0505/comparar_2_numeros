@@ -12,6 +12,13 @@ header {
     padding: 25px 10px;
 }
 
+@media(max-width: 480px) {
+    header {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+}
+
 .container_logo {
     display: flex;
     justify-self: center;
